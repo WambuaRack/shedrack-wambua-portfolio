@@ -42,6 +42,8 @@ def about_me():
 # Projects Section
 def projects():
     st.title("Projects")
+    st.image("iot.jpg", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
+
     projects_data = [
         {"name": "AI Virtual Assistant", "desc": "Developed an AI assistant for Ekaita Financial Consultancy to enhance client interactions.", "link": "#"},
         {"name": "Personal Finance Dashboard", "desc": "Created a web app to aggregate and visualize financial data, providing insights for users.", "link": "#"},
