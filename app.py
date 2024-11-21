@@ -1,5 +1,12 @@
 import streamlit as st
 
+# Page Configuration
+st.set_page_config(
+    page_title="Shedrack Wambua Portfolio",
+    layout="wide",
+    initial_sidebar_state="expanded",  # Ensures sidebar is visible on app load
+)
+
 # Sidebar Navigation
 def sidebar_navigation():
     st.sidebar.title("Navigation")
@@ -49,7 +56,7 @@ def projects():
         {"name": "Personal Finance Dashboard", "desc": "Created a web app to aggregate and visualize financial data, providing insights for users.", "link": "#"},
         {"name": "Online Code Compiler", "desc": "Built a web platform for coding, compiling, and judging solutions with real-time feedback.", "link": "#"},
         {"name": "News Feed App", "desc": "Aggregated and displayed news using RSS feeds, applying NLP for summarization.", "link": "#"},
-        {"name": "Speech-Enabled Chatbot", "desc": "Developed a voice-based chatbot using Python's `speech_recognition` and `pyttsx3` libraries.", "link": "#"},
+        {"name": "Speech-Enabled Chatbot", "desc": "Developed a voice-based chatbot using Python's speech_recognition and pyttsx3 libraries.", "link": "#"},
         {"name": "Twitter Bot", "desc": "Automated a bot to tweet random Martin Luther King Jr. quotes using Python and the Twitter API.", "link": "#"},
         {"name": "Mango Leaf Disease Classifier", "desc": "Built a TensorFlow-based app to classify diseases from mango leaf images.", "link": "#"},
         {"name": "Rackafritech Website", "desc": "Designed a website showcasing tech solutions with Firebase integration for backend.", "link": "#"},
