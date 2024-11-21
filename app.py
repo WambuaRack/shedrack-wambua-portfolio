@@ -42,7 +42,7 @@ def about_me():
 # Projects Section
 def projects():
     st.title("Projects")
-    st.image("iot.jpg", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
+    st.image("man.jpg", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
 
     projects_data = [
         {"name": "AI Virtual Assistant", "desc": "Developed an AI assistant for Ekaita Financial Consultancy to enhance client interactions.", "link": "#"},
@@ -67,6 +67,8 @@ def projects():
 # Experience Section
 def experience():
     st.title("Experience")
+    st.image("do.jpg", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
+
     experiences = [
         {
             "role": "AI Virtual Assistant Developer",
@@ -110,6 +112,8 @@ def experience():
 # Skills Section
 def skills():
     st.title("Skills")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS94r7wqq1ni5C_M6ysV5XPw69PfoYYWpjwPw&s", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
+
     st.markdown("### Programming Languages")
     skills_data = {
         "Python": 0.9,
@@ -129,6 +133,8 @@ def skills():
 # Contact Section
 def contact():
     st.title("Contact")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWZhITDkNv_Lo2TLCnkgtw9uvTFT4k1bbHyA&s", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
+
     st.markdown("""
         If you'd like to get in touch, feel free to reach out:  
         - **Email**: [shedrackwambu40@gmail.com](mailto:shedrackwambu40@gmail.com)  
@@ -140,6 +146,8 @@ def contact():
 # Download CV
 def download_cv():
     st.title("Download CV")
+    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKVj31WA0Cpx_W6kRrs0n_s20BywphXTiZEw&s", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
+
     with open("CV.pdf", "rb") as file:  # Replace with your actual CV file path
         btn = st.download_button(
             label="Download CV",
