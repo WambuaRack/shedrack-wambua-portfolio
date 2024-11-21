@@ -155,7 +155,7 @@ def download_cv():
     st.title("Download CV")
     st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKVj31WA0Cpx_W6kRrs0n_s20BywphXTiZEw&s", caption="Innovator | Problem Solver | Engineer, Technologist")  # Replace with an image
 
-    with open("CV.pdf", "rb") as file:  # Replace with your actual CV file path
+    with open("cv.pdf", "rb") as file:  # Replace with your actual CV file path
         btn = st.download_button(
             label="Download CV",
             data=file,
